@@ -1,0 +1,37 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+
+            <div class="card">
+                <div class="card-body">
+                    <form action="/links/add" method="POST">
+                        <div class="form-group">
+                            <textarea name="nombre" rows="2" class="form-control" minlength="6" maxlength="40" placeholder="Nombre" autofocus required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="direccion" rows="2" class="form-control" minlength="6" maxlength="50" placeholder="Direccion" autofocus required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <select name="instrumento" class="form-control" placeholder="Planta" required>
+                                <option selected="true" disabled="disabled">Instrumento</option>
+                                <option value="Guitarra acústica">Guitarra acústica</option>
+                                <option value="Guitarra eléctrica">Guitarra eléctrica</option>
+                                <option value="Bajo">Bajo</option>
+                                <option value="Flauta">Flauta</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" name="fecha" class="form-control" placeholder="Fecha" required>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success btn-block">
+                                Guardar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
