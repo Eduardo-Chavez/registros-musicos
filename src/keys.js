@@ -2,10 +2,10 @@ module.exports = {
 
     database: {
         connectionLimit: 10,
-        host: 'localhost',
-        user: 'root',
-        password: '',
-        database: 'registroMusicos'
+        host: 'bidfr9fnbxp7decmusyb-mysql.services.clever-cloud.com',
+        user: 'u1gkxwcrobwbzpld',
+        password: 'jQgEe3BX1kPspHC7XcAK',
+        database: 'bidfr9fnbxp7decmusyb'
     }
 
 };
